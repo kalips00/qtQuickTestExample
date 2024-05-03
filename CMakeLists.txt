@@ -16,7 +16,6 @@ qt_add_qml_module(apptestExample
     URI testExample
     VERSION 1.0
     QML_FILES
-        src/qml/Main.qml
         src/qml/component/MyButton.qml
         test/qml/component/tst_MyButton.qml
 )
